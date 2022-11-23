@@ -8192,8 +8192,8 @@ h1, h2, h3, h4, h5,
   width: 100%; }
 
 #sidebar {
-  min-width: 370px;
-  max-width: 370px;
+  min-width: 270px;
+  max-width: 270px;
   background: black;
   height:100%;
   color: #fff;
@@ -8204,7 +8204,7 @@ h1, h2, h3, h4, h5,
   #sidebar .h6 {
     color: #fff; }
   #sidebar.active {
-    margin-left: -370px;
+    margin-left: -270px;
 
 	}
   #sidebar h1 {
