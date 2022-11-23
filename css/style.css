@@ -8352,9 +8352,10 @@ a[data-toggle="collapse"] {
 }
 
 .tangna{
-	background-image: url('https://harleylumagui.info/static/media/header-bg.c4caf95a.jpg');
+	background-image: url('https://cdn.govexec.com/media/featured/cms_bg.jpg');
 	  background-size: cover;
   background-repeat: no-repeat;
+
 	
 }
 @media (min-width: 1200px) {
@@ -8365,7 +8366,7 @@ a[data-toggle="collapse"] {
 /* If the screen size is smaller than 1200px, set the font-size to 80px https://wallpapercave.com/wp/udUclZY.jpg*/ 
 @media (max-width: 1199.98px) {
   .responsive-font-example {
-    font-size: 50px;
+    font-size: 30px;
   }
 }
 .fadein {
@@ -8375,6 +8376,14 @@ a[data-toggle="collapse"] {
         -ms-animation: fadein 6s; /* Internet Explorer */
          -o-animation: fadein 6s; /* Opera < 12.1 */
             animation: fadein 6s;
+}
+.fadein2 {
+
+    -webkit-animation: fadein 10s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 10s; /* Firefox < 16 */
+        -ms-animation: fadein 10s; /* Internet Explorer */
+         -o-animation: fadein 10s; /* Opera < 12.1 */
+            animation: fadein 10s;
 }
 
 @keyframes fadein {
@@ -8520,4 +8529,11 @@ font-size:30px;
 font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
 color:#ca9c31;
 
+}
+.bti {
+	
+	background-color:black;border: 2px solid white;border-radius:10px;color:white;
+}
+.bti:hover{
+	background-color:white;border: 2px solid white;border-radius:10px;color:black;
 }
